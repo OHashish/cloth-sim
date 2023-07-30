@@ -1,4 +1,5 @@
 # Cloth Simulation
+
 Mass-spring model to simulate a cloth with a GUI using QT with different scenario's.
 
 Explicit Verlet is used to calculate speed.
@@ -20,6 +21,7 @@ SS2 Wind: SS2 with wind blowing.
 To get a video of the simulation, the "Save Video (Series of images)" button can be used to save screenshots of the simulation. ffmpeg can be later used to create a video using the screenshots
 
 # Notes:
+- GLM and Eigen are used for calculations
 - This was run on a Macbook using QT 5.15.1 clang 64-bit. Some issues may be encountered when using newer versions.
 - The texture path can be changed in cloth.cpp to change the texture .
 - The path to the folder where the screenshots are saved can be changed too. 
