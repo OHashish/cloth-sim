@@ -1,6 +1,6 @@
 # Cloth Simulation
 
-Mass-spring model to simulate a cloth with a GUI using QT with different scenario's.
+Mass-spring model to simulate a cloth with a GUI using QT with different scenarios.
 
 Explicit Verlet is used to calculate speed.
 
